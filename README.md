@@ -6,6 +6,11 @@ The default scene contains a dynamically generated mesh with configurable LOD an
 
 The CollisionScript is responsible for receiving the collisions and passing those points to the shader. The shader then manipulates the verticies based on their distance from the collision adjusting the normals accordingly and taking (basic) lighting into account.
 
+
+# Demo
+
+https://user-images.githubusercontent.com/26497694/161790271-f1bcec65-5440-4d3e-a1aa-4827238308a2.mov
+
 <br/>
 
 # How to Use
@@ -60,7 +65,6 @@ The CollisionScript is responsible for receiving the collisions and passing thos
     </tr>
 </table>
 
-<br/>
 
 # Features
 
@@ -70,7 +74,6 @@ The CollisionScript is responsible for receiving the collisions and passing thos
 - Supports lighting.
 - Includes a dynamic plane generator with configurable LOD.
 
-<br/>
 
 # Notes
 
@@ -80,7 +83,6 @@ The CollisionScript is responsible for receiving the collisions and passing thos
 - Due to limitations of HLSL the number of ripples has to be defined at compile-time. It's currently limited to 100 simulataneous ripples.
 - The mesh generator script is purely to aid prototyping this shader. I will build a seperate project for it that will be comprehensive and complete.
 
-<br/>
 
 # Future Features
 
@@ -94,7 +96,6 @@ The CollisionScript is responsible for receiving the collisions and passing thos
 - Animated textues.
 - Work out some way to make the number of ripples truly dynamic. It's partly there but needs more work.
 
-<br/>
 
 # Links
 
